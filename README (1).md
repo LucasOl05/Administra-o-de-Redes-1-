@@ -99,13 +99,12 @@ getfacl /empresa5158165/financeiro5158165
 
 ## ✅ Conclusão
 
-O laboratório reforçou na prática o **menor privilégio** (770 por setor), a colaboração segura com **SGID**, a proteção de áreas públicas com **Sticky Bit** e exceções pontuais com **ACL** — pilares para garantir confidencialidade, integridade e disponibilidade em servidores Linux.
+A finalidade deste projeto é simular a infraestrutura de controle de acesso e segurança do sistema operacional que no caso foi o Ubuntu server 26.04 aplicada a um cenário corporativo real. É um ambiente de empresa no qual faz a gestão de acessos que é um dos pilares da segurança a informação e o objetivo principal foi demonstrar como um administrador de redes e sistemas gerencia os acessos dos usuários a fim de manter proteção aos dados de quem pode ou não acessa-los que no é caso a confidenciabilidade e integridade dos Dados de cada segmento da empresa. Foram aplicados nesse trabalho:
+1- Mapeamento Organizacional: Criação de estrutura departamental 
+2-Isolamento de Diretórios: Aplicação de permissões 
+3-Padronização de Segurança Preventiva (umask) : impedir que novos documentos nasçam abertos ao público,
+4-Trabalho Colaborativo Seguro (SGID): Garantia de herança de grupo em pastas de uso conjunto, permitindo o compartilhamento de arquivos entre membros de um mesmo setor sem falhas de permissão.
+5-Proteção Contra Apagamento Indevido (Stricky Bit): Permitindo compartilhamento e troca de arquivos entre funcionários de setores diferentes, mas impedindo que um usuário apague ou altere arquivos que não lhe pertencem.
+6-Privilégios (SUID): Mostrar que precisa de privilégios de superusuario. 
+7-Flexibilização de acesso(SUID):Concessão de permissões de leitura/execução para um usuário específico fora do seu setor sem mostrar pra toda empresa ou ter que reestruturar os grupos
 
-## 👤 Autor
-
-**[SEU NOME COMPLETO]** — Administração de Sistemas Operacionais de Rede I
-[GitHub](https://github.com/<seu-usuario>)
-
-## 📄 Licença
-
-MIT — veja [`LICENSE`](LICENSE).
